@@ -38,8 +38,22 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules/*
+!node_modules/es6-promise/
+node_modules/es6-promise/*
+!node_modules/es6-promise/dist
+node_modules/es6-promise/dist/*
+!node_modules/es6-promise/dist/es6-promise.auto.js
+
+
+!node_modules/systemjs/
+node_modules/systemjs/*
+!node_modules/systemjs/dist/
+node_modules/systemjs/dist/*
+!node_modules/systemjs/dist/system.js
+
 jspm_packages/
+
 
 # TypeScript v1 declaration files
 typings/
@@ -80,7 +94,9 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+dist/*
+!dist/bundle.js
+
 
 # Gatsby files
 .cache/
