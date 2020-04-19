@@ -21,19 +21,20 @@
     "webpack-cli": "3.3.11"
   },
   "dependencies": {
-    "systemjs-plugin-css": "~0.1.37",
-    "systemjs": "~6.3.1",
-    "rimraf": "~3.0.2",
-    "es6-promise": "~4.2.8",
-    "litegraph.js": "0.7.5",
     "@babylonjs/core": "4.1.0",
+    "@babylonjs/gui": "4.1.0",
     "@babylonjs/loaders": "4.1.0",
     "@babylonjs/materials": "4.1.0",
     "@babylonjs/post-processes": "4.1.0",
     "@babylonjs/procedural-textures": "4.1.0",
-    "@babylonjs/gui": "4.1.0",
     "babylonjs-editor-es6": "3.2.0",
     "cannon": "~0.6.2",
-    "earcut": "~2.2.2"
+    "earcut": "~2.2.2",
+    "ecstatic": "^4.1.4",
+    "es6-promise": "~4.2.8",
+    "litegraph.js": "0.7.5",
+    "rimraf": "~3.0.2",
+    "systemjs": "~6.3.1",
+    "systemjs-plugin-css": "~0.1.37"
   }
 }
